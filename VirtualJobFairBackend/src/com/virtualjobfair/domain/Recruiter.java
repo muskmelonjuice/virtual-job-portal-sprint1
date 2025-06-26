@@ -1,8 +1,13 @@
 package com.virtualjobfair.domain;
 
 public record Recruiter(
-    String name,
-    String email,
-    String company,
-    String designation
+        String recruiterId,       // ✅ Primary Key
+        String name,
+        String email,
+        String password,          // ✅ For login
+        String designation,       // ✅ From recruiter form
+        String companyName,
+        String companyWebsite,
+        String companyDescription
 ) implements User {}
+
