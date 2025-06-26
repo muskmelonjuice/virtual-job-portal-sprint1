@@ -1,4 +1,4 @@
-# virtual-job-portal-sprint1
+# virtual-job-portal-sprint2
 
 ## 🌀 Log Rotator Script (Weekly Backup)
 
