@@ -1,0 +1,6 @@
+2025-06-27 09:47:13.015 [main] INFO  org.example.jobportallogging.logging.AppLogger - USER_LOGIN: User 'jane.smith@example.com' logged in from IP: 203.0.113.45
+2025-06-27 09:47:13.019 [main] INFO  org.example.jobportallogging.logging.AppLogger - JOB_APPLICATION: Student 'S98765' applied for Job ID: J1234
+2025-06-27 09:47:13.020 [main] ERROR org.example.jobportallogging.logging.AppLogger - APPLICATION_ERROR: Failed to perform a critical calculation.. Details: / by zero
+java.lang.ArithmeticException: / by zero
+	at org.example.jobportallogging.logging.AppLogger.main(AppLogger.java:33) [classes/:?]
+2025-06-27 09:47:13.038 [main] INFO  org.example.jobportallogging.logging.AppLogger - USER_LOGIN: User 'recruiter.xyz@example.com' logged in from IP: 198.51.100.20
