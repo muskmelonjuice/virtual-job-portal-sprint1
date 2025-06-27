@@ -11,7 +11,7 @@ public class Main {
         testJobPosting();
         testApplication();
 
-        System.out.println("✅ All domain model tests passed successfully.");
+        System.out.println(" All domain model tests passed successfully.");
     }
 
     static void testStudent() {
